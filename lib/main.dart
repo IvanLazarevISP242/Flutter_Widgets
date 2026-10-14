@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets_lazarev/gradient_container.dart';
+import 'gradient_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: (Scaffold(
+      home: Scaffold(
         body: GradientContainer(
           Colors.white,
           Colors.blue,
-          Colors.yellow,
+          Colors.red,
         ),
-      )),
+      ),
     ),
   );
 }
