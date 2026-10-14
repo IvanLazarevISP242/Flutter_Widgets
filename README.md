@@ -1,4 +1,4 @@
-# flutter_widgets_lazarev_Igoshi
+# flutter_widgets_lazarev_Igoshin
 
 # Лабораторная работа №4-5. Flutter: структура UI и компонентный подход
 
