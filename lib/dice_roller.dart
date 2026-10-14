@@ -27,7 +27,7 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'assets/images/dice-1.png',
+          'assets/images/dice-$currentDiceRoll.png',
           width: 300,
         ),
         const SizedBox(height: 20),
@@ -35,7 +35,9 @@ class _DiceRollerState extends State<DiceRoller> {
           onPressed: rollDice,
           style: TextButton.styleFrom(
             foregroundColor: Colors.lime,
-            textStyle: const TextStyle(fontSize: 30),
+            textStyle: const TextStyle(
+              fontSize: 30,
+            ),
           ),
           child: const Text("Roll Dice"),
         ),
